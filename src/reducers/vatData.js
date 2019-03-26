@@ -7,11 +7,13 @@ import {
 
 
 const data = (state = {}, {type, data}) => {
-  switch(type){
+  switch (type) {
+    case GET_VAT:
+      return {};
     case GET_VAT_SUCCESS:
-      return {...state, ...data};
+      return { ...state, ...data };
     default:
-        return state;
+      return state;
   }
 }
 
