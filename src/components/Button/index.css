@@ -1,0 +1,24 @@
+.button{
+    display: inline-block;
+    border: none;
+    box-shadow: 1px 1px 5px #aaa;
+    height: 2.5rem;
+    border-radius: 20px;
+    font-size: 18px;
+    min-width: 150px;
+    padding: 0 30px;
+    line-height: 40px;
+    font-style: normal;
+    color: #fff;
+    background: #006CFF;
+    margin: .375rem;
+    text-align: center;
+}
+
+.pressed {
+  animation: fade-in-keyframes 0.6s;
+}
+@keyframes fade-in-keyframes {
+  from {opacity: 0}
+  to {opacity: 1}
+}

@@ -1,0 +1,28 @@
+.info-section{
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info-section > p{
+  display: flex;
+}
+
+.info-section span {
+  width: 50%;
+  min-width: 250px;
+  padding: .375rem;
+}
+
+.name{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.value{
+  text-align: left;
+  font: 1rem;
+}
+

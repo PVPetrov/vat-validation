@@ -1,0 +1,57 @@
+.App {
+  /* text-align: center; */
+  font-family: 'GT Pro Display',Arial,sans-serif;
+  color: #303030;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  box-shadow: 1px 1px 5px #aaa;
+  position: sticky;
+  top: 0;
+  min-height: 10vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+
+.App-main{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.App-main:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30vh;
+  background-color: #f2c85f;
+  z-index: 1;
+}
+
+.App-main > *{
+  z-index: 10;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}

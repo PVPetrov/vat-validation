@@ -1,0 +1,17 @@
+.error{
+  background: rgb(155, 62, 62);
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  position: fixed;
+  top: 1rem;
+  right: -200%;
+  z-index: 100;
+  max-width: 30vw;
+  max-height: 10rem;
+  transition: all 0.4s ease-in;
+}
+
+.open{
+  right: 1rem;
+}
