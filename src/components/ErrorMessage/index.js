@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types';
 import { dismissError } from '../../actions/error';
-import Button from '../Button';
 
 import './index.css';
 
