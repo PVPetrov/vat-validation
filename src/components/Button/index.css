@@ -13,6 +13,7 @@
     background: #006CFF;
     margin: .375rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .pressed {

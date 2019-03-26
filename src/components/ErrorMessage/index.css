@@ -15,3 +15,10 @@
 .open{
   right: 1rem;
 }
+
+.dismiss-button{
+  border: 1px solid #fff;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}

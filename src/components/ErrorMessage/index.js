@@ -17,8 +17,7 @@ const ErrorMessage = ({
   return(
   <div className={err ? "error open": "error"}>
     <p>{data}</p>
-    <Button action={() => dismissError()}
-        value="Dismiss" classes="small" />
+    <div className="dismiss-button" onClick={() => dismissError()}>Dismiss</div>
   </div>
 )
 }
